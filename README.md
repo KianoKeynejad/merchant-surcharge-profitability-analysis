@@ -68,6 +68,7 @@ Business Insights & Recommendations
 - 🐍 Developed the complete analytical workflow using Python and Pandas
 
 
+---
 
                 Merchant Surcharge Profitability Analysis
 
@@ -114,7 +115,8 @@ Business Insights & Recommendations
         ┌───────────────────────────────┐
         │ Executive Recommendations     │
         └───────────────────────────────┘
-```
+<img width="1217" height="1293" alt="ChatGPT Image Jul 7, 2026, 10_53_35 AM" src="https://github.com/user-attachments/assets/8ee186e5-8d45-4194-81ce-85d0b54e8a02" />
+
 ---
 
 # Key Analysis
