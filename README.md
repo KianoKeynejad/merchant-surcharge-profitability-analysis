@@ -69,21 +69,51 @@ Business Insights & Recommendations
 
 
 
-## Project Architecture
+                Merchant Surcharge Profitability Analysis
 
-```mermaid
-flowchart TD
-
-A[NetSuite Merchant Export] --> B[Python Data Preparation]
-B --> C[Data Cleaning]
-C --> D[Feature Engineering]
-D --> E[Commercial Analytics]
-E --> F[Predictive Pricing Model]
-F --> G[Margin Compression Analysis]
-G --> H[Merchant Risk Assessment]
-H --> I[Business Insights]
-I --> J[Executive Dashboard (Power BI)]
-J --> K[Strategic Recommendations]
+        ┌───────────────────────────────┐
+        │      NetSuite Export          │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌───────────────────────────────┐
+        │ Python Data Preparation       │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌───────────────────────────────┐
+        │ Data Cleaning & Validation    │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌───────────────────────────────┐
+        │ Feature Engineering           │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌───────────────────────────────┐
+        │ Predictive Pricing Model      │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌───────────────────────────────┐
+        │ Margin & Risk Analysis        │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌───────────────────────────────┐
+        │ Commercial Insights           │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌───────────────────────────────┐
+        │ Power BI Dashboards           │
+        └──────────────┬────────────────┘
+                       │
+                       ▼
+        ┌───────────────────────────────┐
+        │ Executive Recommendations     │
+        └───────────────────────────────┘
 ```
 ---
 
