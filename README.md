@@ -1,5 +1,11 @@
 # Merchant Surcharge Profitability & Predictive Pricing Analysis
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+
 ## Overview
 
 This project demonstrates an end-to-end commercial analytics workflow developed to assess the potential financial impact of Australia's **RBA Surcharge Reform (effective 1 October 2026)** on a large merchant payments portfolio.
@@ -48,6 +54,38 @@ Merchant Risk Assessment
 Business Insights & Recommendations
 ```
 
+---
+
+
+## Project Highlights
+
+- 📊 Analysed a portfolio of over **13,000 merchants**
+- 🏪 Assessed profitability across multiple industries and merchant tiers
+- 📈 Built predictive pricing models for Australia's 2026 surcharge reform
+- 💰 Estimated future merchant revenue, processing costs and margin compression
+- ⚠️ Identified merchants projected to become unprofitable
+- 🎯 Produced commercial recommendations to support pricing and retention strategies
+- 🐍 Developed the complete analytical workflow using Python and Pandas
+
+
+---
+
+## Project Architecture
+
+```mermaid
+flowchart TD
+
+A[NetSuite Merchant Export] --> B[Python Data Preparation]
+B --> C[Data Cleaning]
+C --> D[Feature Engineering]
+D --> E[Commercial Analytics]
+E --> F[Predictive Pricing Model]
+F --> G[Margin Compression Analysis]
+G --> H[Merchant Risk Assessment]
+H --> I[Business Insights]
+I --> J[Executive Dashboard (Power BI)]
+J --> K[Strategic Recommendations]
+```
 ---
 
 # Key Analysis
